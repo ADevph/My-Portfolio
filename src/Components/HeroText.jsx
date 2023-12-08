@@ -3,7 +3,7 @@
 import { m, LazyMotion, domAnimation } from "framer-motion";
 
 const HeroText = () => {
-  const name = "Atanu ?";
+  const name = "Atanu ";
 
   return (
     <div
@@ -19,11 +19,11 @@ const HeroText = () => {
           style={{ fontFamily: "SuperMario" }}
         >
           <m.span
-            initial={{ x: -100 }}
+            initial={{ x: -50 }}
             whileInView={{ x: 0 }}
             transition={{ duration: 0.6, type: "spring" }}
           >
-            Who's{" "}
+            Hello, I'm {" "}
           </m.span>
           <m.div
             initial={{ x: 100 }}

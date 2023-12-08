@@ -8,7 +8,7 @@ const Projects = () => {
 		<div id="projects" className="w-full flex justify-center ">
 			<div className="w-full xl:w-[70%] flex flex-col pb-16">
 				<div className="w-full ">
-					<SectionTitle title="PROJECTS" subtitle="What I have done so far" />
+					<SectionTitle title="PROJECTS" subtitle="Some recent" />
 				</div>
 				<ProjectCards />
 			</div>
